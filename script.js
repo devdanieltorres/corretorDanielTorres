@@ -98,3 +98,20 @@ document.addEventListener("DOMContentLoaded", function() {
 function mostrarImagemGrandePlantasCanarios(imagem) {
   document.getElementById("imagemGrandePlantaCanarios").src = imagem;
 }
+
+// clube
+document.addEventListener("DOMContentLoaded", function() {
+  mostrarImagemGrandeClube('imagens/clubeImagens (1).jpg');
+});
+
+function mostrarImagemGrandeClube(imagem) {
+  document.getElementById("imagemGrandeClube").src = imagem;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  mostrarImagemGrandePlantasClube('imagens/plantaRP (1).jpg');
+});
+
+function mostrarImagemGrandePlantasClube(imagem) {
+  document.getElementById("imagemGrandePlantaClube").src = imagem;
+}

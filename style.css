@@ -120,6 +120,16 @@
     max-height: 400px;
   }
   
+  #imagemGrandeClube {
+    max-width: 100%;
+    max-height: 400px;
+  }
+  
+  #imagemGrandePlantaClube {
+    max-width: 100%;
+    max-height: 400px;
+  }
+
   #loader {
     position: fixed;
     top: 0;
@@ -348,6 +358,10 @@
     }
     
     .margem-bottom {
+      padding-bottom: 50px;
+    }
+
+    .margem-logo {
       padding-bottom: 50px;
     }
     
@@ -692,7 +706,7 @@
       }
   
       .margem-bottom{
-        margin-bottom: 300px;
+        margin-bottom: 0px;
       }
   
       .central{
@@ -718,8 +732,17 @@
     
       #inicio {
         padding-top: 50px;
-        padding-bottom: 65px;
+        padding-bottom: 0px;
         color: #FFF;
+      }
+
+      #sobre {
+        padding-top: 50px;
+        margin-top: 0px;
+      }
+
+      .margem-logo {
+        padding-bottom: 350px;
       }
     
       .conteudo-sobre,
